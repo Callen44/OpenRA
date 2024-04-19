@@ -146,39 +146,33 @@ e3:
 		Length: 16
 		Tick: 120
 	die1:
-		Start: 304
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 312
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 320
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 328
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 340
-		Length: 18
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 	prone-stand:
 		Start: 144
 		Stride: 4
@@ -223,39 +217,33 @@ e6:
 		Length: 14
 		Tick: 120
 	die1:
-		Start: 146
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 154
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 162
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 170
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 182
-		Length: 18
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 	prone-stand:
 		Start: 82
 		Stride: 4
@@ -295,39 +283,33 @@ medi:
 		Length: 14
 		Tick: 120
 	die1:
-		Start: 193
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 201
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 209
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 217
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 229
-		Length: 18
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 	prone-stand:
 		Start: 130
 		Stride: 4
@@ -363,39 +345,33 @@ mech:
 		Length: 14
 		Tick: 120
 	die1:
-		Start: 193
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 201
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 209
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 217
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 229
-		Length: 18
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 	prone-stand:
 		Start: 130
 		Stride: 4
@@ -436,39 +412,33 @@ e2:
 		Length: 16
 		Tick: 120
 	die1:
-		Start: 416
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 424
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 432
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 440
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 452
-		Length: 18
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 	prone-stand:
 		Start: 240
 		Stride: 4
@@ -518,36 +488,33 @@ dog:
 		Length: 11
 		Tick: 120
 	die1:
-		Start: 236
-		Length: 6
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 242
-		Length: 9
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 236
-		Length: 6
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 242
-		Length: 9
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 251
-		Length: 14
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electdog.shp
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 	jump:
 		Filename: dogbullt.shp
 		Length: 4
@@ -581,39 +548,33 @@ spy:
 		Length: 16
 		Tick: 120
 	die1:
-		Start: 288
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 296
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 304
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 312
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 324
-		Length: 18
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 	prone-stand:
 		Start: 144
 		Stride: 4
@@ -649,39 +610,33 @@ thf:
 		Length: 19
 		Tick: 120
 	die1:
-		Start: 139
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 147
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 155
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 163
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 175
-		Length: 18
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 	prone-stand:
 		Start: 72
 		Stride: 4
@@ -769,39 +724,33 @@ e7:
 		Length: 14
 		Tick: 120
 	die1:
-		Start: 262
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 270
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 278
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 286
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 298
-		Length: 18
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 	prone-stand:
 		Start: 128
 		Stride: 4
@@ -855,39 +804,33 @@ e4:
 		Length: 16
 		Tick: 120
 	die1:
-		Start: 416
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 424
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 432
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 440
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 452
-		Length: 18
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 	prone-stand:
 		Start: 208
 		Stride: 4
@@ -944,39 +887,33 @@ gnrl:
 		Length: 26
 		Tick: 120
 	die1:
-		Start: 210
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 218
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 226
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 234
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 246
-		Length: 18
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 
 shok:
 	Defaults:
@@ -1031,39 +968,33 @@ shok:
 		Length: 16
 		Tick: 120
 	die1:
-		Start: 416
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 424
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 432
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 440
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 452
-		Length: 18
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 	icon:
 		Filename: shokicon.shp
 
@@ -1083,39 +1014,33 @@ c1:
 		Length: 4
 		Facings: 8
 	die1:
-		Start: 152
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 160
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 168
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 168
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 180
-		Length: 18
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 	run:
 		Start: 56
 		Length: 6
@@ -1138,39 +1063,33 @@ c2:
 		Length: 4
 		Facings: 8
 	die1:
-		Start: 152
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 160
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 168
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 168
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 180
-		Length: 18
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 	run:
 		Start: 56
 		Length: 6
@@ -1193,39 +1112,33 @@ c11:
 		Length: 4
 		Facings: 8
 	die1:
-		Start: 152
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 160
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 168
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 168
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 180
-		Length: 18
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 	run:
 		Start: 56
 		Length: 6
@@ -1249,39 +1162,33 @@ einstein:
 		Facings: 8
 		Tick: 80
 	die1:
-		Start: 120
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
 		Start: 128
-		Length: 8
-		Tick: 80
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 136
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 136
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 148
-		Length: 17
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 
 delphi:
 	Defaults:
@@ -1300,39 +1207,33 @@ delphi:
 		Facings: 8
 		Tick: 80
 	die1:
-		Start: 329
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 337
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 345
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 345
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 357
-		Length: 17
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 
 chan:
 	Defaults:
@@ -1351,39 +1252,33 @@ chan:
 		Facings: 8
 		Tick: 80
 	die1:
-		Start: 120
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
 		Start: 128
-		Length: 8
-		Tick: 80
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 136
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 136
-		Length: 12
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 148
-		Length: 17
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 
 zombie:
 	Defaults:
@@ -1407,39 +1302,33 @@ zombie:
 		Length: 10
 		Tick: 120
 	die1:
-		Start: 106
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die2:
-		Start: 106
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die3:
-		Start: 106
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die4:
-		Start: 106
-		Length: 8
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die5:
-		Start: 114
-		Length: 19
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
+		Start: 128
+		Length: 2
+		Facings: 8
 	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Start: 128
+		Length: 2
+		Facings: 8
 	icon:
 		Filename: zombicon.shp
 
