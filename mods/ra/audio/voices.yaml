@@ -10,9 +10,9 @@ GenericVoice:
 	Voices:
 		Select: await1,ready,report1,yessir1
 		Action: ackno,affirm1,noprob,overout,ritaway,roger,ugotit
-		Die: dedman1,dedman2,dedman3,dedman4,dedman5,dedman7,dedman8
-		Burned: dedman10
-		Zapped: dedman6
+		Die: null
+		Burned: null
+		Zapped: null
 	DisableVariants: Die, Burned, Zapped
 
 VehicleVoice:
@@ -32,35 +32,35 @@ EngineerVoice:
 	Voices:
 		Select: eengin1,eyessir1
 		Action: eaffirm1,emovout1
-		Die: dedman1,dedman2,dedman3,dedman4,dedman5,dedman7,dedman8
-		Burned: dedman10
-		Zapped: dedman6
+		Die: null
+		Burned: null
+		Zapped: null
 
 MedicVoice:
 	Voices:
 		Select: mrespon1,myessir1
 		Action: maffirm1,mmovout1
-		Die: dedman1,dedman2,dedman3,dedman4,dedman5,dedman7,dedman8
-		Burned: dedman10
-		Zapped: dedman6
+		Die: null
+		Burned: null
+		Zapped: null
 
 MechanicVoice:
 	Voices:
 		Select: mhuh1,mhowdy1,mlaff1
 		Move: mboss1,mhear1,myes1,mrise1
 		Action: mhotdig1,mwrench1,myeehaw1
-		Die: dedman1,dedman2,dedman3,dedman4,dedman5,dedman7,dedman8
-		Burned: dedman10
-		Zapped: dedman6
+		Die: null
+		Burned: null
+		Zapped: null
 
 TanyaVoice:
 	Voices:
 		Select: yo1,yes1,yeah1
 		Move: onit1,cmon1,rokroll1
 		Action: tuffguy1,bombit1
-		Die: tandeth1
-		Burned: tandeth1
-		Zapped: tandeth1
+		Die: null
+		Burned: null
+		Zapped: null
 		Build: laugh1
 		Kill: gotit1,lefty1
 		Demolish: keepem1,tuffguy1
@@ -70,74 +70,74 @@ DogVoice:
 		Select: dogw3px
 		Move: dogy1
 		Attack: dogg5p
-		Die: dogw5,dogw7
-		Burned: dogw6
-		Zapped: dogw6
+		Die: null
+		Burned: null
+		Zapped: null
 
 SpyVoice:
 	Voices:
 		Select: syessir1,scomnd1
 		Move: sonway1,sindeed1
 		Action: sking1
-		Die: dedman1,dedman2,dedman3,dedman4,dedman5,dedman7,dedman8
-		Burned: dedman10
-		Zapped: dedman6
+		Die: null
+		Burned: null
+		Zapped: null
 
 ThiefVoice:
 	Voices:
 		Select: swhat1,syeah1
 		Move: saffirm1,smout1,sokay1
 		Action: scandy,sclean1,ssteal1
-		Die: dedman1,dedman2,dedman3,dedman4,dedman5,dedman7,dedman8
-		Burned: dedman10
-		Zapped: dedman6
+		Die: null
+		Burned: null
+		Zapped: null
 
 CivilianMaleVoice:
 	Voices:
 		Select: guyyeah1
 		Action: guyokay1
-		Die: dedman1,dedman2,dedman3,dedman4,dedman5,dedman7,dedman8
-		Burned: dedman10
-		Zapped: dedman6
+		Die: null
+		Burned: null
+		Zapped: null
 
 CivilianFemaleVoice:
 	Voices:
 		Select: girlyeah
 		Action: girlokay
-		Die: dedman1,dedman2,dedman3,dedman4,dedman5,dedman7,dedman8
-		Burned: dedman10
-		Zapped: dedman6
+		Die: null
+		Burned: null
+		Zapped: null
 
 EinsteinVoice:
 	Voices:
 		Select: einah1
 		Action: einok1,einyes1
-		Die: dedman1,dedman2,dedman3,dedman4,dedman5,dedman7,dedman8
-		Burned: dedman10
-		Zapped: dedman6
+		Die: null
+		Burned: null
+		Zapped: null
 
 ShokVoice:
 	Voices:
 		Select: jjuice1,jjump1,jyes1
 		Move: jdance1,jchrge1,jpower1
 		Attack: jburn1,jcrisp1,jshock1,jlight1
-		Die: dedman1,dedman2,dedman3,dedman4,dedman5,dedman7,dedman8
-		Burned: dedman10
-		Zapped: dedman6
+		Die: null
+		Burned: null
+		Zapped: null
 
 AntVoice:
 	Voices:
 		Select: antbite
 		Action: antbite
-		Die: antdie
-		Burned: antdie
-		Zapped: antdie
+		Die: null
+		Burned: null
+		Zapped: null
 
 StavrosVoice:
 	Voices:
 		Select: stavcmdr
 		Move: stavcrse, stavyes, stavmov
 		Attack: stavcrse, stavyes
-		Die: dedman1,dedman2,dedman3,dedman4,dedman5,dedman7,dedman8
-		Burned: dedman10
-		Zapped: dedman6
+		Die: null
+		Burned: null
+		Zapped: null
