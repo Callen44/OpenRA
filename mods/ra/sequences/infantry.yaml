@@ -50,34 +50,13 @@ e1:
 		Start: 272
 		Length: 16
 		Tick: 120
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	garrison-muzzle: minigun
 		Filename:
 		Length: 12
@@ -145,34 +124,13 @@ e3:
 		Start: 287
 		Length: 16
 		Tick: 120
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	prone-stand:
 		Start: 144
 		Stride: 4
@@ -216,34 +174,13 @@ e6:
 		Start: 130
 		Length: 14
 		Tick: 120
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	prone-stand:
 		Start: 82
 		Stride: 4
@@ -282,34 +219,13 @@ medi:
 		Start: 178
 		Length: 14
 		Tick: 120
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	prone-stand:
 		Start: 130
 		Stride: 4
@@ -344,34 +260,13 @@ mech:
 		Start: 178
 		Length: 14
 		Tick: 120
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	prone-stand:
 		Start: 130
 		Stride: 4
@@ -411,34 +306,13 @@ e2:
 		Start: 399
 		Length: 16
 		Tick: 120
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	prone-stand:
 		Start: 240
 		Stride: 4
@@ -487,34 +361,13 @@ dog:
 		Start: 224
 		Length: 11
 		Tick: 120
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	jump:
 		Filename: dogbullt.shp
 		Length: 4
@@ -547,34 +400,13 @@ spy:
 		Start: 271
 		Length: 16
 		Tick: 120
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	prone-stand:
 		Start: 144
 		Stride: 4
@@ -609,34 +441,13 @@ thf:
 		Start: 120
 		Length: 19
 		Tick: 120
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	prone-stand:
 		Start: 72
 		Stride: 4
@@ -723,34 +534,13 @@ e7:
 		Start: 248
 		Length: 14
 		Tick: 120
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	prone-stand:
 		Start: 128
 		Stride: 4
@@ -803,34 +593,13 @@ e4:
 		Start: 399
 		Length: 16
 		Tick: 120
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	prone-stand:
 		Start: 208
 		Stride: 4
@@ -886,34 +655,13 @@ gnrl:
 		Start: 184
 		Length: 26
 		Tick: 120
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 
 shok:
 	Defaults:
@@ -967,34 +715,13 @@ shok:
 		Start: 399
 		Length: 16
 		Tick: 120
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	icon:
 		Filename: shokicon.shp
 
@@ -1013,34 +740,13 @@ c1:
 		Start: 120
 		Length: 4
 		Facings: 8
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	run:
 		Start: 56
 		Length: 6
@@ -1062,34 +768,13 @@ c2:
 		Start: 120
 		Length: 4
 		Facings: 8
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	run:
 		Start: 56
 		Length: 6
@@ -1111,34 +796,13 @@ c11:
 		Start: 120
 		Length: 4
 		Facings: 8
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	run:
 		Start: 56
 		Length: 6
@@ -1161,34 +825,13 @@ einstein:
 		Length: 6
 		Facings: 8
 		Tick: 80
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 
 delphi:
 	Defaults:
@@ -1206,34 +849,13 @@ delphi:
 		Length: 6
 		Facings: 8
 		Tick: 80
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 
 chan:
 	Defaults:
@@ -1251,34 +873,13 @@ chan:
 		Length: 6
 		Facings: 8
 		Tick: 80
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 
 zombie:
 	Defaults:
@@ -1301,34 +902,13 @@ zombie:
 		Start: 96
 		Length: 10
 		Tick: 120
-	die1:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die2:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die3:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die4:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die5:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die6:
-		Start: 128
-		Length: 2
-		Facings: 8
-	die-crushed:
-		Start: 128
-		Length: 2
-		Facings: 8
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	icon:
 		Filename: zombicon.shp
 
