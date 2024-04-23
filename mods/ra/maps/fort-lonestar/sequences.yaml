@@ -48,40 +48,13 @@ sniper:
 		Start: 399
 		Length: 16
 		Tick: 120
-	die1:
-		Start: 416
-		Length: 8
-		Tick: 80
-	die2:
-		Start: 424
-		Length: 8
-		Tick: 80
-	die3:
-		Start: 432
-		Length: 8
-		Tick: 80
-	die4:
-		Start: 440
-		Length: 12
-		Tick: 80
-	die5:
-		Start: 452
-		Length: 18
-		Tick: 80
-	die6:
-		Filename: electro.tem
-		TilesetFilenames:
-			SNOW: electro.sno
-		Frames: 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-		Length: *
-		Tick: 80
-	die-crushed:
-		Filename: corpse1.tem
-		TilesetFilenames:
-			SNOW: corpse1.sno
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	garrison-muzzle:
 		Filename: minigun.shp
 		Length: 3
