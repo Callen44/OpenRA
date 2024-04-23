@@ -374,7 +374,8 @@
 		TextNotification: notification-unit-lost
 	GpsDot:
 		String: Infantry
-	Crushable: null
+	Crushable:
+		CrushSound: squishy2.aud
 	Guard:
 	Guardable:
 	Tooltip:

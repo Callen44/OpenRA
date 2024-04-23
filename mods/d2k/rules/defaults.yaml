@@ -376,7 +376,8 @@
 	HiddenUnderFog:
 	ActorLostNotification:
 		TextNotification: notification-unit-lost
-	Crushable: null
+	Crushable:
+		CrushSound: CRUSH1.WAV
 	Guard:
 		Voice: Guard
 	Guardable:
