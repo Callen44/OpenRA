@@ -400,7 +400,9 @@
 		InternalOwner: Creeps
 		DeathType: TiberiumDeath
 		RequiresLobbyCreeps: true
-	Crushable: null
+	Crushable:
+		CrushClasses: wall
+		CrushSound: null
 	Guardable:
 	ChangesHealth@HOSPITAL:
 		Step: 500
@@ -480,7 +482,9 @@
 		CustomPipType: gray
 	ScaredyCat:
 		AvoidTerrainTypes: Tiberium, BlueTiberium
-	Crushable: null
+	Crushable:
+		CrushClasses: wall
+		CrushSound: null
 	Voiced:
 		VoiceSet: CivilianMaleVoice
 	Wanders:
