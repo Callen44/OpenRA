@@ -3,9 +3,6 @@ OpenRA is a fun game, but it is a little violent for my likings, and I
 would not be suprised if someone else out there agrees.
 OpenRA Clean (this repository) is my attempt at removing the blood,
 screming, and other things in OpenRA that just shouldn't be there.
-I mean seriously, we all recognize the terribleness of WW2, but why do we
-fail to take seriously the death, pain, and suffering that took place
-there?
 
 # Installation
 At the moment the only install method is from source, for instruction on
