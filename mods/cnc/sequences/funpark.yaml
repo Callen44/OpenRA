@@ -14,9 +14,7 @@ steg:
 		Start: 80
 		Length: 12
 		Facings: 8
-	die:
-		Start: 176
-		Length: 22
+	die: null
 	icon:
 		Filename: stegicnh.shp
 
@@ -36,9 +34,7 @@ trex:
 		Start: 80
 		Length: 8
 		Facings: 8
-	die:
-		Start: 144
-		Length: 40
+	die: null
 	icon:
 		Filename: trexicnh.shp
 
@@ -58,9 +54,7 @@ tric:
 		Start: 80
 		Length: 12
 		Facings: 8
-	die:
-		Start: 176
-		Length: 20
+	die: null
 	icon:
 		Filename: tricicnh.shp
 
@@ -80,8 +74,6 @@ rapt:
 		Start: 80
 		Length: 8
 		Facings: 8
-	die:
-		Start: 144
-		Length: 40
+	die: null
 	icon:
 		Filename: rapticnh.shp

@@ -55,30 +55,29 @@ light_inf:
 		Transpose: true
 	die1:
 		Filename: DATA.R16
-		Frames: 382, 389, 396, 403, 410, 417, 424, 431, 438, 443, 448, 453
-		Length: 12
-		Tick: 80
+		Start: 458
+		Facings: -8
+		Transpose: true
 	die2:
 		Filename: DATA.R16
-		Frames: 383, 390, 397, 404, 411, 418, 425, 432, 439, 444, 449, 454
-		Length: 12
-		Tick: 80
+		Start: 458
+		Facings: -8
+		Transpose: true
 	die3:
 		Filename: DATA.R16
-		Frames: 384, 391, 398, 405, 412, 419, 426, 433, 440, 445, 450, 455
-		Length: 12
-		Tick: 80
+		Start: 458
+		Facings: -8
+		Transpose: true
 	die4:
 		Filename: DATA.R16
-		Frames: 385, 392, 399, 406, 413, 420, 427, 434, 441, 446, 451, 456
-		Length: 12
-		Tick: 80
+		Start: 458
+		Facings: -8
+		Transpose: true
 	die-crushed:
 		Filename: DATA.R16
-		Frames: 386, 393, 400, 407, 414, 421, 428, 435, 442, 447, 452, 457
-		Length: 12
-		Tick: 800
-		ZOffset: -511
+		Start: 458
+		Facings: -8
+		Transpose: true
 	icon:
 		Filename: DATA.R16
 		Start: 4272

@@ -375,7 +375,7 @@
 	GpsDot:
 		String: Infantry
 	Crushable:
-		CrushSound: squishy2.aud
+		CrushSound: null
 	Guard:
 	Guardable:
 	Tooltip:

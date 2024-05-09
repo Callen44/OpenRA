@@ -6,10 +6,10 @@ GenericVoice:
 		Select: ackno, await1, ready, report1, yessir1
 		Action: affirm1, ritaway, ugotit, roger, movout1
 		Attack: affirm1, ritaway, ugotit, noprob, yessir1
-		Die: nuyell1, nuyell3, nuyell4, nuyell5, nuyell6
-		Burned: yell1
-		Zapped: nuyell3
-		Poisoned: nuyell12
+		Die: null
+		Burned: null
+		Zapped: null
+		Poisoned: null
 	DisableVariants: Die, Burned, Zapped, Poisoned
 
 VehicleVoice:
@@ -26,40 +26,40 @@ CivilianMaleVoice:
 	Voices:
 		Select: guyyeah1
 		Action: guyokay1
-		Die: nuyell1, nuyell3, nuyell4, nuyell5, nuyell6
-		Burned: yell1
-		Zapped: nuyell3
-		Poisoned: nuyell12
+		Die: null
+		Burned: null
+		Zapped: null
+		Poisoned: null
 
 CivilianFemaleVoice:
 	Voices:
 		Select: girlyeah
 		Action: girlokay
-		Die: nuyell1, nuyell3, nuyell4, nuyell5, nuyell6
-		Burned: yell1
-		Zapped: nuyell3
-		Poisoned: nuyell12
+		Die: null
+		Burned: null
+		Zapped: null
+		Poisoned: null
 
 MoebiusVoice:
 	Voices:
 		Select: mcomnd1, mhello1, myes1, mhmmm1
 		Action: myesyes1, mcourse1, mthanks1, mtiber1, mplan3
-		Die: nuyell1, nuyell3, nuyell4, nuyell5, nuyell6
-		Burned: yell1
-		Zapped: nuyell3
-		Poisoned: nuyell12
+		Die: null
+		Burned: null
+		Zapped: null
+		Poisoned: null
 
 CommandoVoice:
 	Voices:
 		Select: yeah1, yes1, yo1
 		Action: onit1, gotit1, noprblm1
 		Demolish: bombit1
-		Die: ramyell1
-		Burned: ramyell1
-		Zapped: ramyell1
-		Poisoned: ramyell1
+		Die: null
+		Burned: null
+		Zapped: null
+		Poisoned: null
 		Build: rokroll1, cmon1
-		Kill: keepem1, laugh1, lefty1, tuffguy1
+		Kill: null
 
 DinoVoice:
 	Voices:

@@ -401,8 +401,8 @@
 		DeathType: TiberiumDeath
 		RequiresLobbyCreeps: true
 	Crushable:
-		WarnProbability: 75
-		CrushSound: squish2.aud
+		CrushClasses: wall
+		CrushSound: null
 	Guardable:
 	ChangesHealth@HOSPITAL:
 		Step: 500
@@ -483,7 +483,8 @@
 	ScaredyCat:
 		AvoidTerrainTypes: Tiberium, BlueTiberium
 	Crushable:
-		CrushSound: squish2.aud
+		CrushClasses: wall
+		CrushSound: null
 	Voiced:
 		VoiceSet: CivilianMaleVoice
 	Wanders:

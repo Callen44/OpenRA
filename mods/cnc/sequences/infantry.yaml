@@ -116,42 +116,13 @@ e1:
 		Start: 517
 		Length: 9
 		Tick: 120
-	# Shot
-	die1:
-		Start: 381
-		Length: 9
-		Tick: 80
-	# Explode
-	die2:
-		Start: 390
-		Length: 8
-		Tick: 80
-	# Fly and explode in air
-	die3:
-		Start: 398
-		Length: 8
-		Tick: 80
-	# Fly through air squish on ground
-	die4:
-		Start: 406
-		Length: 12
-		Tick: 80
-	# Burn
-	die5:
-		Start: 418
-		Length: 18
-		Tick: 80
-	# Tib
-	die6:
-		Start: 366
-		Length: 11
-		Tick: 80
-	die-crushed:
-		Filename: e1rot.shp
-		Start: 16
-		Length: 4
-		Tick: 1600
-		ZOffset: -511
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	icon:
 		Filename: e1icnh.tem
 
@@ -212,42 +183,13 @@ e2:
 		Length: 3
 		Facings: 8
 		Tick: 120
-	# Shot
-	die1:
-		Start: 509
-		Length: 9
-		Tick: 80
-	# Explode
-	die2:
-		Start: 518
-		Length: 8
-		Tick: 80
-	# Fly and explode in air
-	die3:
-		Start: 526
-		Length: 8
-		Tick: 80
-	# Fly through air squish on ground
-	die4:
-		Start: 534
-		Length: 12
-		Tick: 80
-	# Burn
-	die5:
-		Start: 546
-		Length: 18
-		Tick: 80
-	# Tib
-	die6:
-		Start: 494
-		Length: 11
-		Tick: 80
-	die-crushed:
-		Filename: e2rot.shp
-		Start: 16
-		Length: 4
-		Tick: 1600
-		ZOffset: -511
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	icon:
 		Filename: e2icnh.tem
 
@@ -309,41 +251,13 @@ e3:
 		Facings: 8
 		Tick: 120
 	# Shot
-	die1:
-		Start: 397
-		Length: 9
-		Tick: 80
-	# Explode
-	die2:
-		Start: 406
-		Length: 8
-		Tick: 80
-	# Fly and explode in air
-	die3:
-		Start: 414
-		Length: 8
-		Tick: 80
-	# Fly through air squish on ground
-	die4:
-		Start: 422
-		Length: 12
-		Tick: 80
-	# Burn
-	die5:
-		Start: 434
-		Length: 18
-		Tick: 80
-	# Tib
-	die6:
-		Start: 382
-		Length: 11
-		Tick: 80
-	die-crushed:
-		Filename: e3rot.shp
-		Start: 16
-		Length: 4
-		Tick: 1600
-		ZOffset: -511
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	icon:
 		Filename: e3icnh.tem
 
@@ -404,42 +318,13 @@ e4:
 		Length: 3
 		Facings: 8
 		Tick: 120
-	# Shot
-	die1:
-		Start: 509
-		Length: 9
-		Tick: 80
-	# Explode
-	die2:
-		Start: 518
-		Length: 8
-		Tick: 80
-	# Fly and explode in air
-	die3:
-		Start: 526
-		Length: 8
-		Tick: 80
-	# Fly through air squish on ground
-	die4:
-		Start: 534
-		Length: 12
-		Tick: 80
-	# Burn
-	die5:
-		Start: 546
-		Length: 18
-		Tick: 80
-	# Tib
-	die6:
-		Start: 494
-		Length: 10
-		Tick: 80
-	die-crushed:
-		Filename: e4rot.shp
-		Start: 16
-		Length: 4
-		Tick: 1600
-		ZOffset: -511
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	muzzle:
 		Filename:
 		Combine:
@@ -537,42 +422,13 @@ e5:
 		Length: 3
 		Facings: 8
 		Tick: 120
-	# Shot
-	die1:
-		Start: 509
-		Length: 9
-		Tick: 80
-	# Explode
-	die2:
-		Start: 518
-		Length: 8
-		Tick: 80
-	# Fly and explode in air
-	die3:
-		Start: 526
-		Length: 8
-		Tick: 80
-	# Fly through air squish on ground
-	die4:
-		Start: 534
-		Length: 12
-		Tick: 80
-	# Burn
-	die5:
-		Start: 546
-		Length: 18
-		Tick: 80
-	# Tib
-	die6:
-		Start: 494
-		Length: 10
-		Tick: 80
-	die-crushed:
-		Filename: e4rot.shp
-		Start: 16
-		Length: 4
-		Tick: 1600
-		ZOffset: -511
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	muzzle:
 		Filename:
 		Combine:
@@ -662,42 +518,13 @@ e6:
 		Length: 3
 		Facings: 8
 		Tick: 120
-	# Shot
-	die1:
-		Start: 146
-		Length: 8
-		Tick: 80
-	# Explode
-	die2:
-		Start: 154
-		Length: 8
-		Tick: 80
-	# Fly and explode in air
-	die3:
-		Start: 162
-		Length: 8
-		Tick: 80
-	# Fly through air squish on ground
-	die4:
-		Start: 170
-		Length: 12
-		Tick: 80
-	# Burn
-	die5:
-		Start: 182
-		Length: 18
-		Tick: 80
-	# Tib
-	die6:
-		Start: 130
-		Length: 4
-		Tick: 80
-	die-crushed:
-		Filename: e1rot.shp
-		Start: 16
-		Length: 4
-		Tick: 1600
-		ZOffset: -511
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	icon:
 		Filename: e6icnh.tem
 
@@ -762,41 +589,12 @@ rmbo:
 		Length: 3
 		Facings: 8
 		Tick: 120
-	# Shot
-	die1:
-		Start: 318
-		Length: 8
-		Tick: 80
-	# Explode
-	die2:
-		Start: 326
-		Length: 8
-		Tick: 80
-	# Fly and explode in air
-	die3:
-		Start: 334
-		Length: 8
-		Tick: 80
-	# Fly through air squish on ground
-	die4:
-		Start: 342
-		Length: 12
-		Tick: 80
-	# Burn
-	die5:
-		Start: 354
-		Length: 18
-		Tick: 80
-	# Tib
-	die6:
-		Start: 308
-		Length: 4
-		Tick: 80
-	die-crushed:
-		Filename: e1rot.shp
-		Start: 16
-		Length: 4
-		Tick: 1600
-		ZOffset: -511
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 	icon:
 		Filename: rmboicnh.tem

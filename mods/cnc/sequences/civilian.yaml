@@ -22,35 +22,13 @@ c1:
 		Length: 3
 		Facings: 8
 		Tick: 120
-	die1:
-		Start: 329
-		Length: 8
-		Tick: 80
-	die2:
-		Start: 337
-		Length: 8
-		Tick: 80
-	die3:
-		Start: 337
-		Length: 8
-		Tick: 80
-	die4:
-		Start: 345
-		Length: 12
-		Tick: 80
-	die5:
-		Start: 357
-		Length: 18
-		Tick: 80
-	die6:
-		Start: 182
-		Length: 4
-		Tick: 80
-	die-crushed:
-		Filename: e1rot.shp
-		Start: 16
-		Length: 4
-		Tick: 1600
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 
 c2:
 	Inherits: c1
@@ -121,29 +99,13 @@ moebius:
 	idle1:
 		Start: 104
 		Length: 15
-	die1:
-		Start: 212
-		Length: 8
-	die2:
-		Start: 220
-		Length: 8
-	die3:
-		Start: 220
-		Length: 8
-	die4:
-		Start: 228
-		Length: 12
-	die5:
-		Start: 240
-		Length: 17
-	die6:
-		Start: 214
-		Length: 3
-	die-crushed:
-		Filename: e1rot.shp
-		Start: 16
-		Length: 4
-		Tick: 1600
+	die1: null
+	die2: null
+	die3: null
+	die4: null
+	die5: null
+	die6: null
+	die-crushed: null
 
 chan:
 	Inherits: moebius
