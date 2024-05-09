@@ -589,7 +589,7 @@ rmbo:
 		Length: 3
 		Facings: 8
 		Tick: 120
-die1: null
+	die1: null
 	die2: null
 	die3: null
 	die4: null
