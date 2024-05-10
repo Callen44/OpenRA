@@ -1,5 +1,4 @@
 name: openra-clean # you probably want to 'snapcraft register <name>'
-base: core22 # the base snap is the execution environment for this snap
 version: '0.1' # just for humans, typically '1.2+git' or '1.3.2'
 summary: Violence-free version of openra # 79 char long summary
 description: |
@@ -8,10 +7,152 @@ description: |
   OpenRA Clean (this project) is my attempt at removing the blood,
   screaming, and other things in OpenRA that just shouldn't be there.
 
-grade: devel # must be 'stable' to release into candidate/stable channels
-confinement: devmode # use 'strict' once you have the right plugs and slots
+adopt-info: openra
+grade: stable
+confinement: strict
+base: core22
+compression: lzo
+
+architectures:
+- build-on: amd64
+- build-on: armhf
+- build-on: arm64
+
+layout:
+  /usr/share/libdrm:
+    bind: $SNAP/usr/share/libdrm
+
+apps:
+  cnc:
+    extensions: [gnome]
+    command: usr/bin/openra-cnc
+    common-id: openra-cnc.desktop
+    desktop: usr/share/applications/openra-cnc.desktop
+    plugs:
+    - audio-playback
+    - avahi-control
+    - avahi-observe
+    - desktop
+    - mount-observe
+    - network
+    - network-bind
+    - opengl
+    - removable-media
+    - wayland
+    - x11
+
+  d2k:
+    extensions: [gnome]
+    command: usr/bin/openra-d2k
+    common-id: openra-d2k.desktop
+    desktop: usr/share/applications/openra-d2k.desktop
+    plugs:
+    - audio-playback
+    - avahi-control
+    - avahi-observe
+    - desktop
+    - mount-observe
+    - network
+    - network-bind
+    - opengl
+    - removable-media
+    - wayland
+    - x11
+
+  ra:
+    extensions: [gnome]
+    command: usr/bin/openra-ra
+    common-id: openra-ra.desktop
+    desktop: usr/share/applications/openra-ra.desktop
+    plugs:
+    - audio-playback
+    - avahi-control
+    - avahi-observe
+    - desktop
+    - mount-observe
+    - network
+    - network-bind
+    - opengl
+    - removable-media
+    - wayland
+    - x11
 
 parts:
-  my-part:
-    # See 'snapcraft plugins'
+  install-dotnet:
     plugin: nil
+    override-pull: |
+      curl -LO https://dot.net/v1/dotnet-install.sh
+      chmod +x dotnet-install.sh
+      ./dotnet-install.sh --channel LTS
+
+  openra:
+    after: [install-dotnet]
+    plugin: make
+    source: https://github.com/Callen44/OpenRA.git
+    build-environment:
+      - PATH: $HOME/.dotnet:$PATH
+      - DOTNET_ROOT: $HOME/.dotnet
+    override-pull: |
+      craftctl default
+
+      if [ -f "$SNAPCRAFT_PROJECT_DIR"/build-type ]; then
+        . "$SNAPCRAFT_PROJECT_DIR"/build-type
+      else
+        PLAYTEST=false
+      fi
+
+      VERSION="$(curl -L -s https://api.github.com/repos/Callen44/OpenRA/releases | jq -r '[.[] | select(.prerelease == '"$PLAYTEST"')] | .[0] | .tag_name')"
+      git checkout "$VERSION"
+      craftctl set version="$VERSION"
+
+      echo "$VERSION" > VERSION
+
+      sed -i -Ee 's|^Icon=(.*)$|Icon=/usr/share/icons/hicolor/1024x1024/apps/\1.png|' packaging/linux/openra.desktop.in
+      sed -i -e 's|^Exec=|Exec=openra.{MOD}|' packaging/linux/openra.desktop.in
+
+      sed -i -Ee 's@(\{BIN_DIR\}|\{GAME_INSTALL_DIR\})@$SNAP\1@g' packaging/linux/openra.in
+      sed -i -e 's|mono {DEBUG} OpenRA.dll|./OpenRA|' packaging/linux/openra.in
+
+      sed -i -Ee 's@(\{BIN_DIR\}|\{GAME_INSTALL_DIR\})@$SNAP\1@g' packaging/linux/openra-server.in
+      sed -i -e 's|mono {DEBUG} OpenRA.Server.dll|./OpenRA.Server|' packaging/linux/openra-server.in
+
+      sed -i -Ee 's|(for SIZE in 16x16 32x32 48x48 64x64 128x128)(; do)|\1 256x256 512x512 1024x1024\2|' packaging/functions.sh
+    override-build: |
+      case $SNAPCRAFT_TARGET_ARCH in
+        amd64)
+          TARGET_PLATFORM=linux-x64 ;;
+        armhf)
+          TARGET_PLATFORM=linux-arm ;;
+        arm64)
+          TARGET_PLATFORM=linux-arm64 ;;
+      esac
+      make VERSION=$(cat VERSION) version
+      make RUNTIME=net6 prefix=/usr DESTDIR=$SNAPCRAFT_PART_INSTALL TARGETPLATFORM=$TARGET_PLATFORM all
+      make RUNTIME=net6 prefix=/usr DESTDIR=$SNAPCRAFT_PART_INSTALL TARGETPLATFORM=$TARGET_PLATFORM install
+      make RUNTIME=net6 prefix=/usr DESTDIR=$SNAPCRAFT_PART_INSTALL TARGETPLATFORM=$TARGET_PLATFORM install-linux-shortcuts
+      make RUNTIME=net6 prefix=/usr DESTDIR=$SNAPCRAFT_PART_INSTALL TARGETPLATFORM=$TARGET_PLATFORM install-linux-appdata
+
+      # Tiberian Sun
+      sed -e 's/{DEBUG}/--debug/' -e "s|{GAME_INSTALL_DIR}|/usr/lib/openra|" -e "s|{BIN_DIR}|/usr/bin|" -e "s/{MODID}/ts/g" -e "s/{TAG}/$(shell head -n1 VERSION)/g" -e "s/{MODNAME}/Tiberian Sun/g" "packaging/linux/openra.in" > "packaging/linux/openra-ts"
+      sed -e 's/{DEBUG}/--debug/' -e "s|{GAME_INSTALL_DIR}|/usr/lib/openra|" -e "s/{MODID}/ts/g" "packaging/linux/openra-server.in" > "packaging/linux/openra-ts-server"
+      install -m755 "packaging/linux/openra-ts" "$SNAPCRAFT_PART_INSTALL/usr/bin"
+      install -m755 "packaging/linux/openra-ts-server" "$SNAPCRAFT_PART_INSTALL/usr/bin"
+      cp -r "mods/ts" "$SNAPCRAFT_PART_INSTALL/usr/lib/openra/mods/"
+    build-packages:
+    - curl
+    # - dotnet-sdk-6.0
+    - jq
+    - libfreetype6-dev
+    - liblua5.1-0-dev
+    - libopenal-dev
+    - libsdl2-dev
+    - unzip
+    stage-packages:
+    - libfreetype6
+    - libicu70
+    - liblttng-ust1
+    - liblua5.1-0
+    - libopenal1
+    - libsdl2-2.0-0
+    - mount
+    - wget
