@@ -1,29 +1,15 @@
-# OpenRA Contributing Guidelines
+# OpenRA Clean Contribution Guidelines.
 
-## Participating
-Help us keep OpenRA open and inclusive. Please read and follow our [Code of Conduct](https://github.com/OpenRA/OpenRA/blob/bleed/CODE_OF_CONDUCT.md).
+OpenRA Clean is not intended to be an especially flashy fork, the only reason it exists is the remove the violence from OpenRA, therefore I hope you understand that there are certain types of Contributions that may be denied in some cases.
 
-## Bug reports
+### Contributions that may or may not be accepted
+* New features
+* Bug fixes (yes I know) that also exist on the source repository
+* Contributions relating to anything other than the removal of violence
 
-* Have you read the [FAQ](https://github.com/OpenRA/OpenRA/wiki/FAQ)?
-* Add the appropriate log files on crashes.
-* Mention the version you have tested against.
-* Please be specific on how to reproduce the problem.
-* Do not submit duplicate issues. Search first.
-* Avoid including multiple requests/bugs into a single issue.
+### Contributions allowed
+* removing violence
+* removing bugs that exist only on this repository and not on the OpenRA/OpenRA repo
+* compiling for other operating systems
 
-## Patches
-
-* [Coding standard](https://github.com/OpenRA/OpenRA/wiki/Coding-Standard)
-* [Branches and Releases](https://github.com/OpenRA/OpenRA/wiki/Branches-and-Releases)
-* [Licensing](http://www.gnu.org/licenses/quick-guide-gplv3.html)
-
-Please `git rebase` to the latest revision of the bleed branch.
-
-Don't forget to add yourself to [AUTHORS](https://github.com/OpenRA/OpenRA/blob/bleed/AUTHORS).
-
-Please propose a [CHANGELOG](https://github.com/OpenRA/OpenRA/wiki/CHANGELOG) entry in the pull-request comments.
-
-While your pull-request is in review it will be helpful if you join [IRC](irc://chat.freenode.net/openra) to discuss the changes.
-
-See also the in-depth guide on [contributing](https://github.com/OpenRA/OpenRA/wiki/Contributing) to the OpenRA project.
+Don't let this file spook you! if you have something that you would like to change then contribute to the source repository at https://github.com/OpenRA/OpenRA.
