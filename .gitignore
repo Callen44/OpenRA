@@ -54,3 +54,6 @@ update.log
 
 # IntelliJ files
 .idea
+
+# Snapcraft files
+*.snap
