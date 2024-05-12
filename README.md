@@ -2,7 +2,7 @@
 OpenRA is a fun game, but it is a little violent for my likings, and I
 would not be suprised if someone else out there agrees.
 OpenRA Clean (this repository) is my attempt at removing the blood,
-screming, and other things in OpenRA that just shouldn't be there.
+screaming, and other things in OpenRA that just shouldn't be there.
 
 # Installation
 At the moment the only install method is from source, for instruction on
