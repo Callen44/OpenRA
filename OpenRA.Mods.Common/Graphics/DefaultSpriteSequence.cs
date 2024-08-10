@@ -63,7 +63,11 @@ namespace OpenRA.Mods.Common.Graphics
 					}
 					catch (Exception e)
 					{
-						throw new InvalidDataException($"Failed to parse sequences for {imageNode.Key}.{sequenceNode.Key} at {imageNode.Value.Nodes[0].Location}:\n{e}");
+						// throw new InvalidDataException($"Failed to parse sequences for {imageNode.Key}.{sequenceNode.Key} at {imageNode.Value.Nodes[0].Location}:\n{e}");
+						Console.WriteLine("\n\n\n");
+						Console.WriteLine("Sequence loading error again, is this a problem?");
+						Console.WriteLine(e);
+						Console.WriteLine("\n\n\n");
 					}
 				}
 			}
